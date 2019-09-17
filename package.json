@@ -2,7 +2,7 @@
   "name": "snakegame",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://31Ninokr0.github.io/SnakeGame",
+  "homepage": "https://krelnino.github.io/SnakeGame",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
