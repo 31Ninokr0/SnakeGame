@@ -1,0 +1,84 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: #262626;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+}
+
+.grid {
+  position: relative;
+  top: 100px;
+  background-color: 262626;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 0px 50px #262626;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  overflow: hidden;
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+}
+
+.apple {
+  background: url('red-apple.png') no-repeat;
+  background-size: 100%;
+}
+
+.head {
+  background: url('snake-head.png') no-repeat;
+  background-size: 100%;
+}
+
+.tail {
+  background: green;
+}
+
+.text {
+  font-family: monospace;
+  color: ivory;
+}
+
+#header {
+  background-color: maroon;
+  width: 100vw;
+  height: 10%;
+  text-align: center;
+  display: table-cell; 
+  vertical-align: middle;
+}
+
+.split {
+  height: 90%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+  left: 0;
+  background-color: #111;
+}
+
+
