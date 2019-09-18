@@ -4,5 +4,5 @@ A simple Snake Game created using ReactJS. My first web application using this F
 
 #### Check it out
 
-Link to tryout game [Snake Game](https://krelnino.github.io/SnakeGame/)
+Link to tryout game [Snake Game](https://elninokr.github.io/SnakeGame/)
 
